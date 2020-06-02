@@ -8,6 +8,21 @@ The implementation is a trivial "Hello World" for this toolset.  The automation 
 
 This example also shows how Robot Framework's keyword syntax works and how to drop back into pure python.  
 
+## Installation
+
+To install this project, clone or download the files to a local directory.  Once it has been checked out
+install the requirements with `pip install -r requirements.txt`
+
+## Running The Bot Locally
+
+The bot expects a variable BUSINESS_NAME to be passed into it.  This is the search term that will 
+be used in the query.  
+
+`robot --variable BUSINESS_NAME:'Python Trucking, Inc' ucc.robot`
+
+Check the results (machine readable) - https://beeceptor.com/console/searchandstore
+
+
 ## Audience
 
 This document is intended for developers that may have some python expertise
@@ -27,10 +42,6 @@ Python 3.7.3
 If you don't have python installed, [use this guide](https://realpython.com/installing-python/)
  to get it installed.
 
-## Installation
-
-To install this project, clone or download the files to a local directory.  Once it has been checked out
-install the requirements with `pip install -r requirements.txt`
 
 ### Create a Virtual Environment
 
@@ -38,15 +49,6 @@ Note: Before installation, you may want to run the project in a virtual environm
 Create a new virtual environment by running `python3 -m venv venv` to create a virtual 
 environment in a local directory named "venv".  Running against that virtual environment 
 will work when doing `source venv/bin/activate` moving forward. 
-
-## Running The Bot Locally
-
-The bot expects a variable BUSINESS_NAME to be passed into it.  This is the search term that will 
-be used in the query.  
-
-`robot --variable BUSINESS_NAME:'Python Trucking, Inc' ucc.robot`
-
-Check the results (machine readable) - https://beeceptor.com/console/searchandstore
 
 # Diving into the code
 
