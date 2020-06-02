@@ -50,10 +50,10 @@ Create a new virtual environment by running `python3 -m venv venv` to create a v
 environment in a local directory named "venv".  Running against that virtual environment 
 will work when doing `source venv/bin/activate` moving forward. 
 
-# Diving into the code
+## Diving into the code
 
-Let's go section by section, at the outset we have a settings block which includes a short description
-of the automation and it's imports.
+Let's go section by section.  At the outset we have a settings block which includes a short description
+of the automation and what it imports. [Docs](http://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#id587)
 ```
 *** Settings ***
 Documentation   Searches the Secretary of State UCC database
@@ -64,7 +64,7 @@ Library         OperatingSystem
 ```
 The first two imports that start with `libraries/` were created for this project.  They parse the 
 results of the search and to store the result via a HTTP POST request.  The second two imports pull in the 
-RPA.Browser library included with RPA Framework and the OperatingSystem library offered by Robot Framework.
+`RPA.Browser` library included with RPA Framework and the `OperatingSystem` library offered by Robot Framework. 
 
 #### RPA Framework?  Robot Framework?  Which is it?
 
