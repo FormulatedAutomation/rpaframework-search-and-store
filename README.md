@@ -2,9 +2,11 @@
 
 An example project for using Robot Framework and RPA Framework. 
 
-The automation searches a database of registered businesses and POSTs a file number and date string 
-to an [API endpoint](https://beeceptor.com/console/searchandstore).
-The 
+The automation fills out a web-based form, processes and transmits the results.  
+
+The implementation is a trivial "Hello World" for this toolset.  The automation completes a form on a government website (Illinois Secretary of State Office).  The form has conditional fields that display for different search types and this example shows one approach for working with visually toggled content.
+
+This example also shows how Robot Framework's keyword syntax works and how to drop back into pure python.  
 
 ## Audience
 
@@ -43,6 +45,8 @@ The bot expects a variable BUSINESS_NAME to be passed into it.  This is the sear
 be used in the query.  
 
 `robot --variable BUSINESS_NAME:'Python Trucking, Inc' ucc.robot`
+
+Check the results (machine readable) - https://beeceptor.com/console/searchandstore
 
 # Diving into the code
 
