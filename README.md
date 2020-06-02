@@ -1,9 +1,10 @@
 # Search and Store
 
-An example RPA Framework project that demonstrates how to build 
-browser-based automations.  For the sake of education the bot runs a search 
-on the State of Illinois Secretary of State.  This subject material was chosen due to the form having
-some conditional states.
+An example guide for using RPA framework to automate a form and process the results.  
+
+The automation searches a database of registered businesses and POSTs a file number and date string 
+to an [API endpoint](https://beeceptor.com/console/searchandstore).
+The 
 
 ## Audience
 
