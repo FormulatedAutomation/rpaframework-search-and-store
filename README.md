@@ -82,8 +82,8 @@ ${BUSINESS_NAME}    THE BOOK TABLE, INC
 ```
 
 ## Keywords
-Keywords are the actions that your automation is going to take in granular detail.  At first, this may
-look silly and if you are like me you may want to just use Python directly.  Keywords have a few advantages:
+Keywords are the actions that your automation is going to take.  At first, this may
+look silly and you may want to just use Python directly.  Keywords have a few advantages:
   - Self-documentation: Automations are guaranteed to break and you may not be the one
    to make the fix.  
   - DRY Code: You can break down actions into logical sections that can be re-used with different arguements
