@@ -1,0 +1,11 @@
+.git
+output/*
+output
+venv
+virtualenv
+log.html
+output.xml
+report.html
+*screenshot*
+.idea
+__pycache__
