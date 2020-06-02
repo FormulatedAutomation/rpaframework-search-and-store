@@ -1,6 +1,6 @@
 # Search and Store
 
-An example guide for using RPA framework to automate a form and process the results.  
+An example project for using Robot Framework and RPA Framework. 
 
 The automation searches a database of registered businesses and POSTs a file number and date string 
 to an [API endpoint](https://beeceptor.com/console/searchandstore).
