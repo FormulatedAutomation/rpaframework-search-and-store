@@ -7,7 +7,7 @@ certifi==2020.4.5.1
 cffi==1.14.0
 chardet==3.0.4
 clipboard==0.0.4
-cryptography==2.9.2
+cryptography==3.2
 defusedxml==0.6.0
 dnspython==1.16.0
 EasyProcess==0.3
