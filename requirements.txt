@@ -18,7 +18,7 @@ fpdf==1.7.2
 idna==2.9
 isodate==0.6.0
 jdcal==1.4.1
-lxml==4.5.1
+lxml==4.6.3
 netsuitesdk==1.1.0
 ntlm-auth==1.4.0
 oauthlib==3.1.0
