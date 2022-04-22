@@ -28,7 +28,7 @@ Pillow==8.1.1
 pycparser==2.20
 pycryptodome==3.9.7
 Pygments==2.6.1
-PyPDF2==1.26.0
+PyPDF2==1.27.5
 pyperclip==1.8.0
 pyscreenshot==1.0
 PySocks==1.7.1
